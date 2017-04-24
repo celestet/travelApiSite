@@ -1,0 +1,20 @@
+body{
+    background-color: saddlebrown;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Playfair Display SC', serif;
+    color: white;
+    font-size: 45px;
+}
+
+p{
+    font-size: 25px;
+    color: white;
+}
+
+#travelinfocontainer{
+    font-size: 20px;
+    color: white;
+}
