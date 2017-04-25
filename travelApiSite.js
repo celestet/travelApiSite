@@ -9,43 +9,43 @@ var touristplace
  
   
  
-    if(currentCity == "new york city"){
+    if(document.getElementById('city').value == "new york city"){
     var imageString = "<img src='images/nyc.jpg'>"
-    touristplace = "union square, statue of liberty, empire state building, central park, rockefeller center"
+    touristplace = "times square, statue of liberty, empire state building, central park, rockefeller center"
 }
-   else if(currentCity == "san francisco "){
+   else if(document.getElementById('city').value == "san francisco"){
      imageString = "<img src='images/sf.jpg'>"
      touristplace = "golden gate bridge, fishermans wharf, alcatraz, lombard street, cable car system"
   }
-   else if(currentCity == "seattle"){
+  else if(document.getElementById('city').value == "seattle"){
       imageString = "<img src='images/seattle.jpg'>"
       touristplace = "space needle, pike place market, chihuly garden and glass, experience music project muesuem, seattle great wheel"
   }
-     else if(currentCity == "boston"){
+     else if(document.getElementById('city').value == "boston"){
      imageString = "<img src='images/boston.jpg'>"
      touristplace = "fanueil hall, fenway park, paul revere house, old north church, new england aquarium"
   }
-   else if(currentCity == "los angeles"){
+   else if(document.getElementById('city').value == "los angeles"){
      imageString = "<img src='images/la.jpg'>"
      touristplace = "universal studios and citywalk, disneyland, hollywood(sign, walk of fame, wax muesuem, manschinese theater), santa monica(3rd street promenade and pier), LA Live(staples center, grammy mueseum)"
   }
-   else if(currentCity == "washington dc"){
+   else if(document.getElementById('city').value == "washington dc"){
       imageString = "<img src='images/washingtondc.jpg'>"
       touristplace = "lincoln memorial, national mall, white house, national air and space muesuem, US capitol"
   }
-     else if(currentCity == "chicago"){
+     else if(document.getElementById('city').value == "chicago"){
      imageString = "<img src='images/chicago.jpg'>"
      touristplace = "cloud gate, navy pier, willis tower, magnificent mile, millenium park "
   }
- else if(currentCity == "houston"){
+ else if(document.getElementById('city').value == "houston"){
       imageString = "<img src='images/houston-tx.jpg'>"
       touristplace = "muesuem of fine arts, space center houston, houston muesuem of national sciences, menil collection, downtown aquarium"
   }
-     else if(currentCity == "austin"){
+     else if(document.getElementById('city').value == "austin"){
      imageString = "<img src='images/austin-tx.jpg'>"
      touristplace = "texas state capitol, lady bird lake, barton springs pool, zilker park,lyndon baines johnson library"
   }
-     else if(currentCity == "san diego"){
+     else if(document.getElementById('city').value == "san diego"){
      imageString = "<img src='images/sandiego-midway.jpg'>"
      touristplace = "uss midway, seaworld, old town san diego, la jolla cove, balboa park"
   }
