@@ -2,11 +2,10 @@ var key = "0ae2d9b438e34f87b06171525171502"
 var travelURL = ""
 
 function showInfo(data) {
-var currentCity = data['location']['localtime']
-var cityTemp = data['current']['temp_f']
-var cityWeather = data['current']['condition']['text']
+//var currentCity = data['location']['localtime']
+//var cityTemp = data['current']['temp_f']
+//var cityWeather = data['current']['condition']['text']
 var touristplace
- 
   
  
     if(document.getElementById('city').value == "new york city"){
@@ -49,7 +48,7 @@ var touristplace
 //     imageString = "<img src='images/sandiego-midway.jpg'>"
      touristplace = "1. uss midway <br> <img src='images/sandiego-midway.jpg'><br> 2. seaworld <br><img src='images/seaworld.jpg'><br> 3. old town san diego <br><img src='images/oldtownsd.jpg'><br> 4. la jolla cove<br> <img src='images/lajollacove.jpg'> <br> 5. balboa park <br> <img src='images/balboapark.jpg'>"
   }
-  document.getElementById("travelinfocontainer").innerHTML = "Current Time: " + currentCity + "<br> Weather: " + cityWeather + " " + cityTemp + "°F <br> Most Popular Tourist Attractions:<br>" + touristplace + ""
+  document.getElementById("travelinfocontainer").innerHTML =  "Most Popular Tourist Attractions:<br>" + touristplace 
 //    document.getElementById("imagecontainer").innerHTML = imageString
  
 } 
