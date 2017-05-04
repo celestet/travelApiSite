@@ -10,7 +10,7 @@ var food
  
     if(document.getElementById('city').value == "new york city"){
 //    var imageString = "<img src='images/nyc.jpg'>"
-    food = "1. Russ and daughters cafe <br> Jewish Comfort Food <br> <img src='images/.jpg'> <br> 2. ABC kitchen <br>Organic Food<br> <img src='images/.jpg'> <br> 3. Per se <br>American food <br><img src='images/.jpg'> <br> 4. Daniel <br>French <br><img src='images/.jpg'> <br> 5. The spotted pig <br>british <br> <img src='images/.jpg'>"
+    food = "1. Russ and daughters cafe <br> Jewish Comfort Food <br> <img src='images/russ&daughters-ny.jpg'> <br> 2. ABC kitchen <br>Organic Food<br> <img src='images/abckitchen-ny.jpg'> <br> 3. Per se <br>American food <br><img src='images/perse-nyc.jpg'> <br> 4. Daniel <br>French <br><img src='images/daniel-ny.jpg'> <br> 5. The spotted pig <br>british <br> <img src='images/spottedpig-ny.jpg'>"
 }
    else if(document.getElementById('city').value == "san francisco"){
    food = "1. Gary Danko <br> French <br> <img src='images/.jpg'> <br> 2. Nopa <br>American<br> <img src='images/.jpg'> <br> 3. Kin Khao <br>Thai <br><img src='images/.jpg'> <br> 4. Flour + Water <br>Italian <br><img src='images/.jpg'> <br> 5. Souvla <br>Greek <br> <img src='images/.jpg'>"
@@ -31,14 +31,17 @@ food = "1. Oyamel Cocina Mexicana<br> Mexican <br> <img src='images/.jpg'> <br> 
 food = "1. Great Chicago food & Beverage Co<br> American<br> <img src='images/.jpg'> <br> 2. Foodlife <br>barbecue<br> <img src='images/.jpg'> <br> 3. Cemitas Puebla <br>Mexican<br><img src='images/.jpg'> <br> 4. Chicago Raw <br>Vegetarian <br><img src='images/.jpg'> <br> 5. Afghan Kabob <br>Mediterranean<br> <img src='images/.jpg'>"
   }
  else if(document.getElementById('city').value == "houston"){
-
+food = "1. Underbelly <br> American<br> <img src='images/.jpg'> <br> 2. Hugo's <br>Mexican<br> <img src='images/.jpg'> <br> 3. BB's Cafe <br>Cajun<br><img src='images/.jpg'> <br> 4. Ibizia <br>Spanish <br><img src='images/.jpg'> <br> 5. Piada Italian street Food <br>Italian<br> <img src='images/.jpg'>"
   }
      else if(document.getElementById('city').value == "austin"){
-
+food = "1. Salty Sow<br> American<br> <img src='images/.jpg'> <br> 2. Juan in a Million <br>Mexican<br> <img src='images/.jpg'> <br> 3. Olamaie <br>Southern<br><img src='images/.jpg'> <br> 4. Franklin Barbecue <br>Barbecue <br><img src='images/.jpg'> <br> 5. Arlo's <br>Vegan<br> <img src='images/.jpg'>"
   }
      else if(document.getElementById('city').value == "san diego"){
-
+food = "1. Blue Water seafood market & grill <br> Seafood<br> <img src='images/.jpg'> <br> 2. Bo-beau kitchen + bar <br>french<br> <img src='images/.jpg'> <br> 3. Lucha Libre Taco Shop <br>Mexican<br><img src='images/.jpg'> <br> 4. STACKED <br>American <br><img src='images/.jpg'> <br> 5. Pizzeria Luigi <br>Pizza<br> <img src='images/.jpg'>"
   }
+    else{
+        food = "Only Basic info is provided for this city"
+    }
   document.getElementById("travelinfocontainer").innerHTML =  "Most Popular Restaurants:<br>" + food 
 //    document.getElementById("imagecontainer").innerHTML = imageString
  
