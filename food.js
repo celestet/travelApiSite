@@ -28,16 +28,16 @@ food = "1. Sqirl <br> Organic <br> <img src='images/sqirl-la.png'> <br> 2. Komod
 food = "1. Oyamel Cocina Mexicana<br> Mexican <br> <img src='images/ocm-dc.jpg'> <br> 2. Astro Doughnuts & Fried Chicken <br>Chicken<br> <img src='images/astro-dc.jpg'> <br> 3. Ted's Bulletin <br>American <br><img src='images/tedsbulletin.jpg'> <br> 4. Toki Underground <br>Asian <br><img src='images/tokiunderground-dc.jpg'> <br> 5. Le Diplomate <br>French<br> <img src='images/le-diplomate-dc.jpg'>"
   }
      else if(document.getElementById('city').value == "chicago"){
-food = "1. Alinea<br> American<br> <img src='images/.jpg'> <br> 2. Foodlife <br>barbecue<br> <img src='images/.jpg'> <br> 3. Cemitas Puebla <br>Mexican<br><img src='images/.jpg'> <br> 4. Chicago Raw <br>Vegetarian <br><img src='images/.jpg'> <br> 5. Afghan Kabob <br>Mediterranean<br> <img src='images/.jpg'>"
+food = "1. Alinea<br> American<br> <img src='images/alinea-chicago.jpg'> <br> 2. Foodlife <br>Food Court that serves Barbecue, Chinese, pastas, soups & more<br> <img src='images/foodlife-chicago.jpg'> <br> 3. Cemitas Puebla <br>Mexican<br><img src='images/cemitaspuebla-chicago.jpg'> <br> 4. Chicago Raw <br>Vegetarian <br><img src='images/chicagoraw.jpg'> <br> 5. Afghan Kabob <br>Mediterranean<br> <img src='images/afghankabob-chicago.jpg'>"
   }
  else if(document.getElementById('city').value == "houston"){
-food = "1. Underbelly <br> American<br> <img src='images/.jpg'> <br> 2. Hugo's <br>Mexican<br> <img src='images/.jpg'> <br> 3. BB's Cafe <br>Cajun<br><img src='images/.jpg'> <br> 4. Ibizia <br>Spanish <br><img src='images/.jpg'> <br> 5. Piada Italian street Food <br>Italian<br> <img src='images/.jpg'>"
+food = "1. Underbelly <br> American<br> <img src='images/underbelly-houston.jpeg'> <br> 2. Hugo's <br>Mexican<br> <img src='images/Hugos_houston.jpg'> <br> 3. BB's Cafe <br>Cajun<br><img src='images/bbscafe-houston.jpg'> <br> 4. Ibizia <br>Spanish <br><img src='images/ibizia-houston.jpg'> <br> 5. Piada Italian street Food <br>Italian<br> <img src='images/piada-houston.jpg'>"
   }
      else if(document.getElementById('city').value == "austin"){
-food = "1. Salty Sow<br> American<br> <img src='images/.jpg'> <br> 2. Juan in a Million <br>Mexican<br> <img src='images/.jpg'> <br> 3. Olamaie <br>Southern<br><img src='images/.jpg'> <br> 4. Franklin Barbecue <br>Barbecue <br><img src='images/.jpg'> <br> 5. Arlo's <br>Vegan<br> <img src='images/.jpg'>"
+food = "1. Salty Sow<br> American<br> <img src='images/saltysow-austin.jpg'> <br> 2. Juan in a Million <br>Mexican<br> <img src='images/juan-austin.jpg'> <br> 3. Olamaie <br>Southern<br><img src='images/olamaie-austin.jpg'> <br> 4. Franklin Barbecue <br>Barbecue <br><img src='images/franklinbbq-austin.jpg'> <br> 5. Arlo's <br>Vegan<br> <img src='images/arlos-austin.jpg'>"
   }
      else if(document.getElementById('city').value == "san diego"){
-food = "1. Blue Water seafood market & grill <br> Seafood<br> <img src='images/.jpg'> <br> 2. Bo-beau kitchen + bar <br>french<br> <img src='images/.jpg'> <br> 3. Lucha Libre Taco Shop <br>Mexican<br><img src='images/.jpg'> <br> 4. STACKED <br>American <br><img src='images/.jpg'> <br> 5. Pizzeria Luigi <br>Pizza<br> <img src='images/.jpg'>"
+food = "1. Blue Water seafood market & grill <br> Seafood<br> <img src='images/bluewaterseafood-sd.jpg'> <br> 2. Bo-beau kitchen + bar <br>french<br> <img src='images/bo-beau-sd.jpg'> <br> 3. Lucha Libre Taco Shop <br>Mexican<br><img src='images/luchalibra-sd.jpg'> <br> 4. STACKED <br>American <br><img src='images/stacked-sd.jpg'> <br> 5. Pizzeria Luigi <br>Pizza<br> <img src='images/pizzerialuigi-sd.jpg'>"
   }
     else{
         food = "Only Basic info is provided for this city"
