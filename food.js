@@ -63,3 +63,4 @@ var userInput = document.getElementById('city').value
 travelURL = "https://api.apixu.com/v1/current.json?key=" + key + "&q=" + userInput
 makeRequest()
 }
+
