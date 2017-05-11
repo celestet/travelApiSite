@@ -6,21 +6,21 @@ var touristplace
   
  
     if(document.getElementById('city').value == "new york city"){
-    touristplace = "1. times square <br>  <br> <img src='images/timesquare.jpg'> <br> 2. statue of liberty <br> <img src='images/nyc.jpg'> <br> 3. empire state building <br> <img src='images/empirestate.jpg'> <br> 4. central park <br> <img src='images/centralpark.jpg'> <br> 5. brooklyn bridge <br> <img src='images/brooklynbridge.jpg'>"
+    touristplace = "1. Times Square <br>  <br> <img src='images/timesquare.jpg'> <br> 2. Statue of Liberty <br> <img src='images/nyc.jpg'> <br> 3. Empire State Building <br> <img src='images/empirestate.jpg'> <br> 4. Central Park <br> <img src='images/centralpark.jpg'> <br> 5. Brooklyn Bridge <br> <img src='images/brooklynbridge.jpg'>"
 }
    else if(document.getElementById('city').value == "san francisco"){
-     touristplace = "1. golden gate bridge <br> <img src='images/sf.jpg'> <br> 2. fishermans wharf <br> <img src='images/fishermanswharf.jpg'> <br> 3. alcatraz <br> <img src='images/alcatraz.jpg'> <br> 4. lombard street <br> <img src='images/lombardstreet.jpg'> <br> 5. cable car system <br> <img src='images/cablecar-sf.jpg'>"
+     touristplace = "1. Golden Gate Bridge <br> <img src='images/sf.jpg'> <br> 2. Fisherman's Wharf <br> <img src='images/fishermanswharf.jpg'> <br> 3. Alcatraz <br> <img src='images/alcatraz.jpg'> <br> 4. Lombard Street <br> <img src='images/lombardstreet.jpg'> <br> 5. Cable Car System <br> <img src='images/cablecar-sf.jpg'>"
   }
   else if(document.getElementById('city').value == "seattle"){
-      touristplace = "1. space needle <br> <img src='images/seattle.jpg'> <br> 2. pike place market <br> <img src='images/pikeplacemarket.jpg'> <br> 3. chihuly garden and glass <br> <img src='images/chihuly-seattle.jpg'> <br> 4. lake washington <br> <img src='images/lakewashington-seattle.jpg'> <br> 5. seattle great wheel <br> <img src='images/seattlegreatwheel.jpg'>"
+      touristplace = "1. Space Needle <br> <img src='images/seattle.jpg'> <br> 2. Pike Place Market <br> <img src='images/pikeplacemarket.jpg'> <br> 3. Chihuly Garden and Glass <br> <img src='images/chihuly-seattle.jpg'> <br> 4. Lake Washington <br> <img src='images/lakewashington-seattle.jpg'> <br> 5. Seattle Great Wheel <br> <img src='images/seattlegreatwheel.jpg'>"
   }
      else if(document.getElementById('city').value == "boston"){
 //     imageString = "<img src='images/boston.jpg'>"
-     touristplace = "1. fanueil hall <br> <img src='images/faneuilhall.JPG'> <br>  2. fenway park <br> <img src='images/fenwaypark.jpg'> <br> 3. paul revere house <br> <img src='images/paul-revere-house.jpg'> <br> 4. old north church <br> <img src='images/oldnorthchurch.jpg'> <br> 5. new england aquarium <br> <img src='images/aquarium-boston.jpg'>"
+     touristplace = "1. Fanueil Hall <br> <img src='images/faneuilhall.JPG'> <br>  2. Fenway Park <br> <img src='images/fenwaypark.jpg'> <br> 3. Paul Revere House <br> <img src='images/paul-revere-house.jpg'> <br> 4. Old North Church <br> <img src='images/oldnorthchurch.jpg'> <br> 5. New England Aquarium <br> <img src='images/aquarium-boston.jpg'>"
   }
    else if(document.getElementById('city').value == "los angeles"){
 //     imageString = "<img src='images/la.jpg'>"
-     touristplace = "1. universal studios <br> <img src='images/universalstudios.jpg'> <br> universal citywalk <br> <img src='images/citywalk.jpg'> <br> 2. disneyland <br> <img src='images/disneyland.jpg'> <br> California Adventure <br> <img src='images/californiaadventure.jpg'> <br> 3. hollywood sign <br> <img src='images/hollywood-sign.jpg'> <br> hollywood walk of fame <br> <img src='images/walkoffame-la.jpg'> <br>  Mans Chinese theater <br> <img src='images/hollywood-theater.jpg'> <br> 4. santa monica <br> 3rd Street Promenade <br> <img src='images/promenade-santamonica.jpg'> <br> Pier <br> <img src='images/santamonicapier.jpg'> <br> 5. LA Live <br> Staples center <br> <img src='images/staplescenter-lalive.jpg'> <br> Grammy Museum <br>  <img src='images/grammymueseum-lalive.jpg'>"
+     touristplace = "1. Universal Studios <br> <img src='images/universalstudios.jpg'> <br> Universal Citywalk <br> <img src='images/citywalk.jpg'> <br> 2. Disneyland <br> <img src='images/disneyland.jpg'> <br> California Adventure <br> <img src='images/californiaadventure.jpg'> <br> 3. Hollywood Sign <br> <img src='images/hollywood-sign.jpg'> <br> Hollywood Walk of Fame <br> <img src='images/walkoffame-la.jpg'> <br>  Mans Chinese theater <br> <img src='images/hollywood-theater.jpg'> <br> 4. santa monica <br> 3rd Street Promenade <br> <img src='images/promenade-santamonica.jpg'> <br> Pier <br> <img src='images/santamonicapier.jpg'> <br> 5. LA Live <br> Staples center <br> <img src='images/staplescenter-lalive.jpg'> <br> Grammy Museum <br>  <img src='images/grammymueseum-lalive.jpg'>"
   }
    else if(document.getElementById('city').value == "washington dc"){
 //      imageString = "<img src='images/washingtondc.jpg'>"
